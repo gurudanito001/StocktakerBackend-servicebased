@@ -17,7 +17,7 @@ app.use(cors());
 app.use("/api/book", BookRoutes);
 app.use("/api/user", UserRoutes);
 app.use("/api/vehicle", VehicleRoutes);
-app.use("/api/spareparts", SparePartRoutes);
+app.use("/api/sparepart", SparePartRoutes);
 app.use("/api/purchasehistory", PurchaseHistoryRoutes);
 app.use("/api/usagehistory", UsageHistoryRoutes);
 

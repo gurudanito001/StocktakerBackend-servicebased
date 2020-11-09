@@ -52,7 +52,7 @@ function UserController() {
 
   const findEmail = async function(req, res) {
     let data = await User.findEmail(req.params.email);
-    data ? res.json(true) : res.json(false)
+    res.json(data)
     
       /* User.findEmail(req.params.email).then(data =>{
         data ? res.json(true) : res.json(false)
